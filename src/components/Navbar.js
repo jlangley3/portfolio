@@ -4,7 +4,13 @@ import { connect } from 'react-redux';
 
 
 class NavBar extends Component {
-  
+    render() {
+        return ( 
+            <div className="App">
+            This is My Nav Bar
+                
+            </div>
+              )}       
 }
 
 
@@ -13,5 +19,5 @@ class NavBar extends Component {
 
 
 
-export default withRouter(connect(mapStateToProps, mapDispatchToProps)(NavBar))
+export default NavBar
 
