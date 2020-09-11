@@ -7,7 +7,7 @@ class NavBar extends Component {
     render() {
         return ( 
             <div className="App">
-            This is My Nav Bar
+                This is My Nav Bar
                 
             </div>
               )}       
