@@ -1,13 +1,20 @@
   ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 100%;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px 3px rgba(250, 250, 250, .4),
+        -3px -3px 3px 3px rgba(170, 170, 170, .3);
+    height: 40vh;
+    width: 90vw;
+    display: inline;
+    flex-direction: row;
+    align-self: start;
   }
 
   li {
     display: inline;
-    float: left;
+    flex-direction: row;
+    color: green;
   }
 
   
