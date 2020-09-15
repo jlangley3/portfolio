@@ -7,11 +7,22 @@ import Home from './components/Home';
 class App extends React.Component {
   render() {
     return ( 
-        <div className="App">
-          <Navbar />
+          <Fragment>
+          <Navbar  />
           <Home />
-            
+        <div className="App" >
+        <Switch>
+        <Route exact path='/' render={() => {return  <Home />}}/>
+        <Route exact path='/home' render={() => {return <Home/>}}/>
+        <Route exact path='/new_event' render={() => {return <Projects /> }}/>
+        <Route exact path='/contact' render={() => {return  <Contact/>}}/>
+        <Route exact path='/links' render={() => {return <Links />}}/>
+          <Redirect from='*' to='/' />
+          <Route component={NotFound} />
+        </Switch>
+        <Footer />
         </div>
+      </Fragment>
           )}
      
   }

@@ -7,7 +7,7 @@ import { connect } from 'react-redux';
 class Projects extends Component {
     render() {
         return ( 
-                <div></div>
+                <div>Projects</div>
               )}       
 }
 
