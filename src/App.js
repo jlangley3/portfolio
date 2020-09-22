@@ -3,6 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
+import NotFound from './components/NotFound';
+import Footer from './components/Footer';
+import Projects from './components/Projects';
 
 class App extends React.Component {
   render() {
