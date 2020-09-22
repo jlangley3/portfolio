@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
 import { Link, withRouter } from "react-router-dom";
 
-class Footer extends Component{
+class Contact extends Component{
 
     render(){
        return (
-    <footer>
+   
       <div>
-            <p>Copyright * 2020 * Jesse Langley</p>
+            <p>Contact</p>
       </div>
-    </footer>
+    
   )   
     }
 
@@ -17,4 +17,4 @@ class Footer extends Component{
 
 
 
-export default Footer
+export default Contact
