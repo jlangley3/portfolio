@@ -8,10 +8,9 @@ class NavBar extends Component {
     render() {
         return ( 
                <ul>
-                    <li><a href="default.asp">Home</a></li>
-                    <li><a href="projects.asp">Projects</a></li>
-                    <li><a href="contact.asp">Contact</a></li>
-                    <li><a href="about.asp">About</a></li>
+                    <Link to="/home">HOME</Link>
+                    <Link to="/about">About</Link>
+                    <Link to="/projects">Projects</Link>
                 </ul>
               )}       
 }
