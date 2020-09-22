@@ -9,18 +9,19 @@ import NotFound from './components/NotFound';
 import Footer from './components/Footer';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import About from './components/About';
 
 class App extends React.Component {
   render() {
     return ( 
           <Fragment>
           <Navbar  />
-          <Home />
         <div className="App" >
         <Switch>
         <Route exact path='/' render={() => {return  <Home />}}/>
         <Route exact path='/projects' render={() => {return <Projects /> }}/>
         <Route exact path='/contact' render={() => {return  <Contact/>}}/>
+        <Route exact path='/about' render={() => {return  <About/>}}/>
           <Redirect from='*' to='/' />
           <Route component={NotFound} />
         </Switch>
