@@ -7,11 +7,11 @@ import '../styles/Nav.css';
 class NavBar extends Component {
     render() {
         return ( 
-               <ul>
-                    <Link to="/">HOME</Link>
-                    <Link to="/about">About</Link>
-                    <Link to="/projects">Projects</Link>
-                </ul>
+               <div class="nav">
+                    <Link as="a" activeClassName="active" to="/">HOME</Link>
+                    <Link as="a" activeClassName="active" to="/about">About</Link>
+                    <Link as="a" activeClassName="active" to="/projects">Projects</Link>
+                </div>
               )}       
 }
 
