@@ -7,7 +7,7 @@ import '../styles/Nav.css';
 class NavBar extends Component {
     render() {
         return ( 
-               <div class="nav">
+               <div className="nav">
                     <Link as="a" activeClassName="active" to="/">HOME</Link>
                     <Link as="a" activeClassName="active" to="/about">About</Link>
                     <Link as="a" activeClassName="active" to="/projects">Projects</Link>
