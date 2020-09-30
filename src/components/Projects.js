@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Link, withRouter } from "react-router-dom";
 import { connect } from 'react-redux';
-
+import '../styles/Projects.css';
 
 
 class Projects extends Component {
     render() {
         return ( 
-                <div>
+                <div className="videos">
                    <iframe width="655" height="500" 
                            src="https://www.youtube.com/embed/IL3Uz5mYQ6A?rel=0" 
                            allow="accelerometer; gyroscope; picture-in-picture" 
