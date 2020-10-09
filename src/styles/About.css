@@ -4,7 +4,12 @@
 
 }
 
+h1 {
+    font-size: 3rem
+}
+
 p {
     padding-left: 12rem;
-    padding-right: 12rem
+    padding-right: 12rem;
+    font-size: 2rem;
 }
