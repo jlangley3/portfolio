@@ -12,3 +12,8 @@ ul {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
 }
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: .2rem;
+}
