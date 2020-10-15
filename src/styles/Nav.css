@@ -26,7 +26,7 @@
 
   body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   .nav {
@@ -36,6 +36,7 @@
     top: 0em;
     margin-bottom: 12em;
     width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   .nav a {

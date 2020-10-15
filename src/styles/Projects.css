@@ -4,9 +4,11 @@
 }
 
 h1 {
-    font-size: 3rem
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 ul {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
 }
