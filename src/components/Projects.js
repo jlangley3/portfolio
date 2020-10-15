@@ -16,8 +16,8 @@ class Projects extends Component {
                            title='gift lister video'
                     />
                    <p>
-                        Link to Front-end: <a href={"https://github.com/jlangley3/gift_list_frontend"}>Front-End</a> 
-                         ||  
+                        Link to Front-end: <a href={"https://github.com/jlangley3/gift_list_frontend"}>Front-End </a> 
+                        <span>{"  &  "} </span>
                         Link to Back-end: <a href={"https://github.com/jlangley3/gift_list_backend"}>Back-End</a>
                         </p>
                    <iframe width="655" height="500" 
@@ -28,7 +28,7 @@ class Projects extends Component {
                     />
                     <p>
                         Link to Front-end: <a href={"https://github.com/jlangley3/react_car_forum"}>Front-End</a>
-                         ||  
+                        <span>{"  &  "} </span> 
                         Link to Back-end: <a href={"https://github.com/agdsarge/rails-car-forum"}>Back-End</a>
                         </p>
 
@@ -40,7 +40,7 @@ class Projects extends Component {
                     />
                     <p>
                         Link to Front-end: <a href={"https://github.com/jlangley3/bootcamp_fitness-frontend"}>Front-End</a> 
-                         ||  
+                        <span>{"  &  "} </span> 
                         Link to Back-end: <a href={"hhttps://github.com/jlangley3/bootcamp-fitness-backend"}>Back-End</a>
                     </p>
 
