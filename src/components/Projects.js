@@ -8,7 +8,7 @@ class Projects extends Component {
     render() {
         return ( 
                 <div className="videos">
-                        <h1>These are Demos of my Latest Projects</h1>
+                        <h1>Demos of my Latest Projects</h1>
                    <iframe width="655" height="500" 
                            src="https://www.youtube.com/embed/IL3Uz5mYQ6A?rel=0" 
                            allow="accelerometer; gyroscope; picture-in-picture" 
