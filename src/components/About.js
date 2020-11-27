@@ -5,13 +5,23 @@ import logo from '../images/logo.png';
 
 class About extends Component{
 
+
+
+
     render(){
+        function Header() {
+            // Import result is the URL of your image
+            return <img src={logo} alt="Logo" />;
+          }
        return (
    <div> 
-       <img src={logo} alt="Logo" />
+      <div classname="banner"> 
+      <Header />
+      {/* <img src={logo} alt="Logo" /> */}
+      </div>
       <div classname="about">
           
-            <div>
+            
             {/* <h1> A Little Bit About Me</h1> */}
             <p>Full stack web developer, experienced in Ruby on Rails, React, 
                 Redux, and JavaScript based programming with ten years of past 
@@ -28,8 +38,9 @@ class About extends Component{
                 their optimum efficiency. I graduated from Flatiron School and I’m 
                 excited to combine my years of experience in healthcare and working 
                 with clients with my new expertise in Ruby on Rails and JavaScript 
-                to a new opportunity as a developer.</p></div>
-      </div></div>
+                to a new opportunity as a developer.</p>
+      </div>
+      </div>
     
   )   
     }
