@@ -13,3 +13,7 @@ p {
     padding-right: 12rem;
     font-size: 2rem;
 }
+
+img {
+    width: 100%;
+}

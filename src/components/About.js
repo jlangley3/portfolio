@@ -8,8 +8,9 @@ class About extends Component{
     render(){
        return (
    <div> 
+       <img src={logo} alt="Logo" />
       <div classname="about">
-          <img src={logo} alt="Logo" />
+          
             <div>
             <h1> A Little Bit About Me</h1>
             <p>Full stack web developer, experienced in Ruby on Rails, React, 
