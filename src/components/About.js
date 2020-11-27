@@ -12,7 +12,7 @@ class About extends Component{
       <div classname="about">
           
             <div>
-            <h1> A Little Bit About Me</h1>
+            {/* <h1> A Little Bit About Me</h1> */}
             <p>Full stack web developer, experienced in Ruby on Rails, React, 
                 Redux, and JavaScript based programming with ten years of past 
                 experience in health sciences and education.</p>
