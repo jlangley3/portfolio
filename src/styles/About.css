@@ -14,8 +14,10 @@ p {
     font-size: 2rem;
 }
 
-.Header{
+
+.banner img{
+    background-color: rgb(250, 250, 250);
     width: 100%;
     height: 14rem;
-
+    border-radius: 1rem;
 }

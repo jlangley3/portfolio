@@ -10,16 +10,16 @@ class About extends Component{
 
     render(){
         function Header() {
-            // Import result is the URL of your image
+            // Import result is the URL of image
             return <img src={logo} alt="Logo" />;
           }
        return (
    <div> 
-      <div classname="banner"> 
-      <Header />
-      {/* <img src={logo} alt="Logo" /> */}
+      <div className="banner"> 
+      {/* <Header /> */}
+      <img src={logo} alt="Logo" />
       </div>
-      <div classname="about">
+      <div className="about">
           
             
             {/* <h1> A Little Bit About Me</h1> */}
