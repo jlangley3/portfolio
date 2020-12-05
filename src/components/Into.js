@@ -15,19 +15,19 @@ class Into extends Component {
                            src="https://www.youtube.com/embed/f4g2nPY-VZc?rel=0"
                            allow="accelerometer; gyroscope; picture-in-picture" 
                            allowfullscreen
-                           title='gift lister video'
+                           title='M1'
                     />
                    <p>
                        Notes about Why I'm into it
                         </p>
 
 
-                        <h1>2.</h1><h2>Apple Silicon Mac's</h2>
+                        <h1>2.</h1><h2>Subaru BRZ</h2>
                    <iframe width="655" height="500" 
-                           src="https://www.youtube.com/embed/f4g2nPY-VZc?rel=0"
+                           src="https://www.youtube.com/embed/aJnEQf6DzkU?rel=0"
                            allow="accelerometer; gyroscope; picture-in-picture" 
                            allowfullscreen
-                           title='gift lister video'
+                           title='BRZ'
                     />
                    <p>
                        Notes about Why I'm into it
