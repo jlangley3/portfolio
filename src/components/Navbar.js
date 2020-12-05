@@ -11,6 +11,7 @@ class NavBar extends Component {
                     <Link as="a" activeClassName="active" to="/">HOME</Link>
                     <Link as="a" activeClassName="active" to="/about">About</Link>
                     <Link as="a" activeClassName="active" to="/projects">Projects</Link>
+                    <Link as="a" activeClassName="active" to="/into">Tech I'm Into</Link>
                 </div>
               )}       
 }
