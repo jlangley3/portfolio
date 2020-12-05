@@ -1,0 +1,18 @@
+.App {
+    padding-top: 3.2em;
+    padding-bottom: 5rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 6rem;
+}

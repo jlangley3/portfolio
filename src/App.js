@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import About from './components/About';
+import Into from './components/Into';
 
 class App extends React.Component {
   render() {
@@ -22,6 +23,7 @@ class App extends React.Component {
         <Route exact path='/projects' render={() => {return <Projects /> }}/>
         <Route exact path='/contact' render={() => {return  <Contact/>}}/>
         <Route exact path='/about' render={() => {return  <About/>}}/>
+        <Route exact path='/into' render={() => {return  <Into/>}}/>
           <Redirect from='*' to='/' />
           <Route component={NotFound} />
         </Switch>
