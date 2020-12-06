@@ -33,13 +33,16 @@ class Into extends Component {
                        Notes about Why I'm into it
                         </p>
 
-                        <h1>3.</h1><h2>Apple Silicon Mac's</h2>
-                   <iframe width="655" height="500" 
+                        <h1>3.</h1><h2>Mirror</h2>
+  
+     <a href={"https://www.mirror.co/shop/mirror?utm_source=google_ads&utm_medium=google_shopping&utm_campaign=mirror_shopping"}>  <img src="https://res.cloudinary.com/themirror/w_480,c_scale,f_auto,q_auto/ecom/production/2019/11/22/19/40/34/34a7eb2a-95b7-451d-90a5-bcf58f352f6d/190910_Mirror_01_2672_02_WIP_297x297.jpg" alt="Italian Trulli"></img></a>
+ 
+                   {/* <iframe width="655" height="500" 
                            src="https://www.youtube.com/embed/f4g2nPY-VZc?rel=0"
                            allow="accelerometer; gyroscope; picture-in-picture" 
                            allowfullscreen
                            title='gift lister video'
-                    />
+                    /> */}
                    <p>
                        Notes about Why I'm into it
                         </p>
