@@ -47,7 +47,7 @@ class Into extends Component {
                        Notes about Why I'm into it
                         </p>
 
-                        <h1>4.</h1><h2>Play Station 5</h2>
+                        <h1>4.</h1><h2>Playstation 5</h2>
                    <iframe width="655" height="500" 
                            src="https://www.youtube.com/embed/FXYTaLFoIF4?rel=0"
                            allow="accelerometer; gyroscope; picture-in-picture" 
@@ -58,9 +58,9 @@ class Into extends Component {
                        Notes about Why I'm into it
                         </p>
 
-                        <h1>5.</h1><h2>Apple Silicon Mac's</h2>
+                        <h1>5.</h1><h2>Elgato Microphone</h2>
                    <iframe width="655" height="500" 
-                           src="https://www.youtube.com/embed/f4g2nPY-VZc?rel=0"
+                           src="https://www.youtube.com/embed/_mLyLh7cN2s?rel=0"
                            allow="accelerometer; gyroscope; picture-in-picture" 
                            allowfullscreen
                            title='gift lister video'
@@ -68,6 +68,9 @@ class Into extends Component {
                    <p>
                        Notes about Why I'm into it
                         </p>
+
+
+
                 </div>
               )}       
 }
