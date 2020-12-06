@@ -16,3 +16,8 @@ p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2rem;
 }
+
+img {
+    height: 10rem;
+    width: 3rem;
+}
