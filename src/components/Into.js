@@ -39,7 +39,7 @@ class Into extends Component {
  
 
                    <p>
-                       Notes about Why I'm into it
+                       Due to the pandemic fitness companies had a big rise in popularty and cash. Tonal was a start up with a smart wall mounted display and ditital weights raised $110, 000, 000 to help it meet the demand. and Lululemon paided over 500, 000, 00 to aquire mirror a company that builds mirros with buillt in dsiplays that guide workouts. 
                         </p>
 
                         <h1>4.</h1><h2>Playstation 5</h2>
