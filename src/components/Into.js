@@ -18,7 +18,7 @@ class Into extends Component {
                            title='M1'
                     />
                    <p>
-                       Notes about Why I'm into it
+                       This is big. ARM vs x86 has always been a fun debate for me and Apple may be the compnay to push the next generation of computers forward.
                         </p>
 
 
