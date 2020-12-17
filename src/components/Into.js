@@ -30,7 +30,7 @@ class Into extends Component {
                            title='BRZ'
                     />
                    <p>
-                       Notes about Why I'm into it
+                       My all time favorite car. Its not about power for me its about handling and fun. This car is all of that. It hugs me and the road at the sametiem and I cant ask for more from a a car. 
                         </p>
 
                         <h1>3.</h1><h2>Mirror</h2>
@@ -39,7 +39,7 @@ class Into extends Component {
  
 
                    <p>
-                       Due to the pandemic fitness companies had a big rise in popularty and cash. Tonal was a start up with a smart wall mounted display and ditital weights raised $110, 000, 000 to help it meet the demand. and Lululemon paided over 500, 000, 00 to aquire mirror a company that builds mirros with buillt in dsiplays that guide workouts. 
+                       Due to the pandemic fitness companies had a big rise in popularty and cash. Tonal was a start up with a smart wall mounted display and ditital weights raised $110, 000, 000 to help it meet the demand. and Lululemon paided over $500, 000, 000 to aquire mirror a company that builds mirros with built in displays that guide workouts. 
                         </p>
 
                         <h1>4.</h1><h2>Playstation 5</h2>
