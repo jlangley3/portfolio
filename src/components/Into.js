@@ -61,7 +61,7 @@ class Into extends Component {
                            title='Elgato'
                     />
                    <p>
-                       Notes about Why I'm into it
+                       This is my mic, I love it and the loopback functionality is one of a kind. 
                         </p>
 
 
