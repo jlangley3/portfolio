@@ -71,9 +71,6 @@ class Into extends Component {
 }
 
 
-{/* allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen
-title='video'> */}
 
 
 
