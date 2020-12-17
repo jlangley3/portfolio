@@ -50,7 +50,7 @@ class Into extends Component {
                            title='Playstation'
                     />
                    <p>
-                       Notes about Why I'm into it
+                       Look everyone is into it. There are hard to find and they are expensive but everyone wants one. The controllers are what excite me the most. The next generation of gaming is right around the corner when ever I can afford it!
                         </p>
 
                         <h1>5.</h1><h2>Elgato Microphone</h2>
