@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import { Link, withRouter } from "react-router-dom";
+import Modal from "./Component/Modal";
+import '../styles/Modal.css';
 import '../styles/About.css';
 import logo from '../images/logo.png';
 
