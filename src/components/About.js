@@ -50,7 +50,7 @@ class About extends Component{
                 to a new opportunity as a developer.</p>
       </div>
 
-      <Modal show={this.state.show} />
+      <Modal show={this.state.show}>Message in Modal</Modal>
 
       {/* Trigger/Open The Modal */}
 <button id="myBtn">Open Modal</button>

@@ -12,6 +12,6 @@ export default class Modal extends React.Component {
     if(!this.props.show){
         return null;
     }
-  return <div>Hello Modal</div>;
+    return <div>{this.props.children}</div>;
 }
 }
