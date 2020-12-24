@@ -20,6 +20,12 @@ class About extends Component{
         this.props.show = false;
       };
 
+      showModal = e => {
+        this.setState({
+          show: !this.state.show
+        });
+      };
+
 
     render(){
         function Header() {
