@@ -76,10 +76,14 @@ class About extends Component{
     <p>Some text in the Modal..</p>
   </div>
 
-  <button  onClick={e => {
-              this.showModal();
-         }}
-          > show Modal </button>
+  
+        <button
+          class="toggle-button"
+          id="centered-toggle-button"
+          onClick={e => {
+            this.showModal(e);
+          }}
+        ></button>
 
 
 
