@@ -1,13 +1,20 @@
 import React, {Component} from 'react';
 import { Link, withRouter } from "react-router-dom";
-import Modal from "./Component/Modal";
+import Modal from "./Modal";
 import '../styles/Modal.css';
 import '../styles/About.css';
 import logo from '../images/logo.png';
 
 class About extends Component{
 
-
+    state = {
+        show: false
+      };
+      showModal = e => {
+        this.setState({
+          show: true
+        });
+      };
 
 
     render(){
@@ -43,6 +50,8 @@ class About extends Component{
                 to a new opportunity as a developer.</p>
       </div>
 
+      <Modal />
+
       {/* Trigger/Open The Modal */}
 <button id="myBtn">Open Modal</button>
 
@@ -54,6 +63,13 @@ class About extends Component{
     <span class="close">&times;</span>
     <p>Some text in the Modal..</p>
   </div>
+
+  <button  onClick={e => {
+              this.showModal();
+         }}
+          > show Modal </button>
+
+
 
 </div>
 
