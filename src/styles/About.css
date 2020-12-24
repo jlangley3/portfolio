@@ -38,18 +38,18 @@ p {
   
   /* Modal Content/Box */
   .modal-content {
-    background-color: #fefefe;
+    background-color: #33964c;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
-    border: 1px solid #888;
+    border: 1px solid rgb(15, 15, 15);
     width: 80%; /* Could be more or less, depending on screen size */
   }
   
   /* The Close Button */
   .close {
-    color: #aaa;
+    color: rgb(19, 17, 17);
     float: right;
-    font-size: 28px;
+    font-size: 5rem;
     font-weight: bold;
   }
   
