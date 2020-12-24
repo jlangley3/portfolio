@@ -1,6 +1,8 @@
 import React from "react";
 
-
+onClose = e => {
+    this.props.show = false;
+  };
 
 
 
