@@ -60,6 +60,9 @@ class About extends Component{
       </div>
 
       <h1>React Modal</h1>
+        <Modal show={this.state.show} handleClose={this.hideModal}>
+          <p>Modal</p>
+        </Modal>
         <button type="button" onClick={this.showModal}>
           Open
         </button>
