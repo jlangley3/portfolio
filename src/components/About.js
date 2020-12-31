@@ -7,24 +7,23 @@ import logo from '../images/logo.png';
 
 class About extends Component{
 
-    state = {
-        show: false
-      };
-      showModal = e => {
-        this.setState({
-          show: true
-        });
-      };
+  constructor() {
+    super();
+    this.state = {
+      show: false
+    };
+    this.showModal = this.showModal.bind(this);
+    this.hideModal = this.hideModal.bind(this);
+  }
 
-      onClose = e => {
-        this.props.show = false;
-      };
+  showModal = () => {
+    this.setState({ show: true });
+  };
 
-      showModal = e => {
-        this.setState({
-          show: !this.state.show
-        });
-      };
+  hideModal = () => {
+    this.setState({ show: false });
+  };
+
 
 
     render(){
@@ -60,6 +59,13 @@ class About extends Component{
                 to a new opportunity as a developer.</p>
       </div>
 
+      <h1>React Modal</h1>
+        <button type="button" onClick={this.showModal}>
+          Open
+        </button>
+      
+      
+      
       <Modal onClose={this.showModal} show={this.state.show}>
           Message in Modal
      </Modal>
