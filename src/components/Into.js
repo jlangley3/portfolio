@@ -35,7 +35,7 @@ class Into extends Component {
 
                         <h1>3.</h1><h2>Mirror</h2>
   
-     <a href={"https://www.mirror.co/shop/mirror?utm_source=google_ads&utm_medium=google_shopping&utm_campaign=mirror_shopping"}>  <img src="https://res.cloudinary.com/themirror/w_480,c_scale,f_auto,q_auto/ecom/production/2019/11/22/19/40/34/34a7eb2a-95b7-451d-90a5-bcf58f352f6d/190910_Mirror_01_2672_02_WIP_297x297.jpg" alt="Italian Trulli"></img></a>
+     <a href={"https://www.mirror.co/shop/mirror?utm_source=google_ads&utm_medium=google_shopping&utm_campaign=mirror_shopping"}>  <img src="https://images.lululemon.com/is/image/lululemon/1_1_lg_Masonry_D%20Hero?$masonry_grid$&wid=2420&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72" alt="Italian Trulli"></img></a>
  
 
                    <p>
