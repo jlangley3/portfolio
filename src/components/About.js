@@ -64,6 +64,16 @@ class About extends Component{
           Message in Modal
      </Modal>
 
+     <button class="toggle-button" id="centered-toggle-button">Toggle</button>
+
+<div class="modal" id="modal">
+  <h2>Modal Window</h2>
+  <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis deserunt corrupti, ut fugit magni qui quasi nisi amet repellendus non fuga omnis a sed impedit explicabo accusantium nihil doloremque consequuntur.</div>
+  <div class="actions">
+    <button class="toggle-button">OK</button>
+  </div>
+</div>
+
       {/* Trigger/Open The Modal */}
 <button id="myBtn">Open Modal</button>
 
