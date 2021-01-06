@@ -24,7 +24,6 @@ class App extends React.Component {
         <Route exact path='/contact' render={() => {return  <Contact/>}}/>
         <Route exact path='/about' render={() => {return  <About/>}}/>
         <Route exact path='/into' render={() => {return  <Into/>}}/>
-        <Route exact path="/photos" render={() => {return <Photos/>}}></Route>
           <Redirect from='*' to='/' />
           <Route component={NotFound} />
         </Switch>
