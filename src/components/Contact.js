@@ -8,6 +8,11 @@ class Contact extends Component{
    
       <div>
             <p>Contact</p>
+            <p>Linkedin</p>
+            <p>Email</p>
+            <p>Blog</p>
+
+
       </div>
     
   )   
