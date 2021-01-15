@@ -1,30 +1,9 @@
 import React, {Component} from 'react';
 import { Link, withRouter } from "react-router-dom";
-import Modal from "./Modal";
-import '../styles/Modal.css';
 import '../styles/About.css';
 import logo from '../images/logo.png';
 
 class About extends Component{
-
-  constructor() {
-    super();
-    this.state = {
-      show: false
-    };
-    this.showModal = this.showModal.bind(this);
-    this.hideModal = this.hideModal.bind(this);
-  }
-
-  showModal = () => {
-    this.setState({ show: true });
-  };
-
-  hideModal = () => {
-    this.setState({ show: false });
-  };
-
-
 
     render(){
         function Header() {
@@ -59,54 +38,11 @@ class About extends Component{
                 to a new opportunity as a developer.</p>
       </div>
 
-      <h1>React Modal</h1>
-        <Modal show={this.state.show} handleClose={this.hideModal}>
-          <p>Modal</p>
-        </Modal>
-        <button type="button" onClick={this.showModal}>
-          Open
-        </button>
       
-      
-      
-      <Modal onClose={this.showModal} show={this.state.show}>
-          Message in Modal
-     </Modal>
-
-     <button class="toggle-button" id="centered-toggle-button">Toggle</button>
-
-<div class="modal" id="modal">
-  <h2>Modal Window</h2>
-  <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis deserunt corrupti, ut fugit magni qui quasi nisi amet repellendus non fuga omnis a sed impedit explicabo accusantium nihil doloremque consequuntur.</div>
-  <div class="actions">
-    <button class="toggle-button">OK</button>
-  </div>
-</div>
-
-      {/* Trigger/Open The Modal */}
-<button id="myBtn">Open Modal</button>
-
-
-<div id="myModal" class="modal">
-
-  {/* Modal content  */}
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>Some text in the Modal..</p>
-  </div>
-
-  
-        <button
-          class="toggle-button"
-          id="centered-toggle-button"
-          onClick={e => {
-            this.showModal(e);
-          }}
-        ></button>
 
 
 
-</div>
+
 
       </div>
     
