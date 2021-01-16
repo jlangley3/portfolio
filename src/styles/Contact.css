@@ -1,6 +1,6 @@
 .title{
     font-weight: bolder;
-    position: relative;
+    position: static;
     display: inline-block;
     font-size: large;
     font-weight: 800;
