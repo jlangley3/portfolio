@@ -1,10 +1,10 @@
 .title{
     font-weight: bolder;
-    position: static;
-    display: inline-block;
-    font-size: large;
-    font-weight: 800;
+    /* position: static;
+    display: inline;
+    font-size: 900;
+    font-weight:bolder 900;
     text-transform: uppercase;
-    font-style: italic;
+    font-style: bolder; */
     color: black;
 }
