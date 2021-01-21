@@ -15,7 +15,7 @@ class Projects extends Component {
                            allowfullscreen
                            title='gift lister video'
                     />
-                   <p>
+                   <p className="link">
                         Link to Front-end: <a href={"https://github.com/jlangley3/gift_list_frontend"}>Front-End </a> 
                         <span>{"  &  "} </span>
                         Link to Back-end: <a href={"https://github.com/jlangley3/gift_list_backend"}>Back-End</a>
@@ -26,7 +26,7 @@ class Projects extends Component {
                            allowfullscreen
                            title='Car Facts video'
                     />
-                    <p>
+                    <p className="link">
                         Link to Front-end: <a href={"https://github.com/jlangley3/react_car_forum"}>Front-End</a>
                         <span>{"  &  "} </span> 
                         Link to Back-end: <a href={"https://github.com/agdsarge/rails-car-forum"}>Back-End</a>
@@ -38,7 +38,7 @@ class Projects extends Component {
                            allowfullscreen
                            title='Bootcamp video'
                     />
-                    <p>
+                    <p className="link">
                         Link to Front-end: <a href={"https://github.com/jlangley3/bootcamp_fitness-frontend"}>Front-End</a> 
                         <span>{"  &  "} </span> 
                         Link to Back-end: <a href={"hhttps://github.com/jlangley3/bootcamp-fitness-backend"}>Back-End</a>
@@ -50,7 +50,7 @@ class Projects extends Component {
                            allowfullscreen
                            title='Artist is Like video'
                     />
-                    <p>Link to Code: <a href={"https://github.com/mertoz41/artist-is-like"}>GitHub</a></p>
+                    <p className="link">Link to Code: <a href={"https://github.com/mertoz41/artist-is-like"}>GitHub</a></p>
                 </div>
               )}       
 }
