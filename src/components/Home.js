@@ -9,6 +9,12 @@ class Home extends React.Component{
             <div className="App">
                <h1>Welcome to My Portfolio!</h1>
                  <img src={me} alt="me"/>
+
+                 <Link to="/dashboard"></Link>
+
+                 <button type="button">
+                  See my work
+              </button>
             </div>
               )}       
 }
