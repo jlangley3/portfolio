@@ -13,7 +13,7 @@ class Home extends React.Component{
 
                  <Link to="/Projects">
                  <button className="button" type="button">
-                  See my work
+                  <p className="see">See my work</p>
               </button>
               </Link>
             </div>
