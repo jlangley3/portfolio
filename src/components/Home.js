@@ -12,7 +12,7 @@ class Home extends React.Component{
                  <img src={me} alt="me"/>
 
                  <Link to="/Projects">
-                 <button type="button">
+                 <button className="button" type="button">
                   See my work
               </button>
               </Link>
