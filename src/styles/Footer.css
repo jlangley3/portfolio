@@ -46,6 +46,10 @@
     text-decoration: none;
     font-size: .75rem;
   }
+
+  a {
+    color: rgb(15, 221, 60);
+  }
   
 
  

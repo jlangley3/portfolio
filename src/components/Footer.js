@@ -9,9 +9,7 @@ class Footer extends Component{
        return (
     <footer>
       <div className="foot">
-            <p >Copyright * 2020 * Jesse Langley * <Link to="/Projects">
-Home
-              </Link></p>
+            <p >Copyright * 2020 * Jesse Langley * <Link to="/Projects">Home</Link></p>
             
       </div>
     </footer>
