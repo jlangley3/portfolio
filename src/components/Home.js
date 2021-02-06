@@ -16,6 +16,11 @@ class Home extends React.Component{
                   <p className="see">See My Work</p>
               </button>
               </Link></div>
+
+
+
+
+              
             </div>
               )}       
 }

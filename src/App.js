@@ -4,6 +4,7 @@ import {connect} from "react-redux";
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
+import Resume from './components/Resume';
 import Home from './components/Home';
 import NotFound from './components/NotFound';
 import Footer from './components/Footer';
@@ -23,6 +24,7 @@ class App extends React.Component {
         <Route exact path='/projects' render={() => {return <Projects /> }}/>
         <Route exact path='/contact' render={() => {return  <Contact/>}}/>
         <Route exact path='/about' render={() => {return  <About/>}}/>
+        <Route exact path='/resume' render={() => {return  <Resume/>}}/>
         <Route exact path='/into' render={() => {return  <Into/>}}/>
           <Redirect from='*' to='/' />
           <Route component={NotFound} />
