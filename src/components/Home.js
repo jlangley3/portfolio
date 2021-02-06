@@ -8,7 +8,7 @@ class Home extends React.Component{
     render() {
         return ( 
             <div className="myPic">
-               <h1>Welcome to My Portfolio!</h1>
+               <h1>Jesse's Portfolio!</h1>
                  <img src={me} alt="me"/>
                  <div>
                  <Link to="/Projects">
