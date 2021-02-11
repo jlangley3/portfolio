@@ -10,10 +10,11 @@
 }
 
 img {
-    width: 6rem;
-    height: 6rem;
+    width: 22rem;
+    height: 10rem;
     position:center;
     display: block;
     border-radius: 3rem;
+    margin-left: 35vw;
 
 }
