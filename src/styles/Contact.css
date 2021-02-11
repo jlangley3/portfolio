@@ -1,10 +1,19 @@
 .title{
     font-weight: bolder;
-    /* position: static;
+    position: static;
     display: inline;
     font-size: 900;
     font-weight:bolder 900;
     text-transform: uppercase;
-    font-style: bolder; */
+    font-style: bolder;
     color: black;
+}
+
+img {
+    width: 6rem;
+    height: 6rem;
+    position:left;
+    display: block;
+    border-radius: 3rem;
+
 }
