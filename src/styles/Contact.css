@@ -10,15 +10,14 @@
 }
 .title2{
     font-weight: bolder;
-    position: center;
-    display: inline;
+    position: static;
+    display: block;
     font-size: 9900;
     font-weight:bolder 900;
     text-transform: uppercase;
     font-style: bolder;
-    color: black;
-    padding-bottom: 3rem;
-    margin-bottom: 2rem;
+    color: rgb(255, 255, 255);
+
 }
 
 img {
@@ -32,8 +31,8 @@ img {
 }
 
 .contactpage {
-    background-color: rgb(35, 219, 90);
-    background: url(../images/green.jpg) no-repeat center center fixed;
+    /* background-color: rgb(35, 219, 90); */
+    background: url(../images/green.gif) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

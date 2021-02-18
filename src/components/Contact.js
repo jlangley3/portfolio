@@ -27,7 +27,7 @@ class Contact extends Component{
 
 
      {/* <p className="title">Blog</p> */}
-            <a href={"https://www.mirror.co/shop/mirror?utm_source=google_ads&utm_medium=google_shopping&utm_campaign=mirror_shopping"}>  
+            <a href={"https://jlangleyiii.medium.com/"}>  
      <img src={blog}
      alt="Italian Trulli" width="900px" height="600px"></img></a>
 
