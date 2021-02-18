@@ -8,6 +8,18 @@
     font-style: bolder;
     color: black;
 }
+.title2{
+    font-weight: bolder;
+    position: center;
+    display: inline;
+    font-size: 9900;
+    font-weight:bolder 900;
+    text-transform: uppercase;
+    font-style: bolder;
+    color: black;
+    padding-bottom: 3rem;
+    margin-bottom: 2rem;
+}
 
 img {
     width: 22rem;
