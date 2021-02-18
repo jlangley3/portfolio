@@ -17,9 +17,10 @@ p {
 
 .banner img{
     background-color: rgb(250, 250, 250);
-    width: 100%;
+    width: 50%;
     height: 14rem;
     border-radius: 1rem;
+    position: center;
 }
 
 /* The Modal (background) */

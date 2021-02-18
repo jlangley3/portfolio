@@ -3,6 +3,14 @@
     padding-bottom: 5rem;
 }
 
+body {
+    background-color: black;
+}
+
+h1 {
+    color: rgb(138, 138, 138);
+}
+
 .button {
     background-color: #8e928c; /* Green */
     /* border: ridge;
