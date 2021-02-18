@@ -12,8 +12,8 @@ class Contact extends Component{
     render(){
        return (
    
-      <div>
-         <p className="title">Contact Page</p> <Link as="a" activeClassName="active" to="/Contact"><img src={con} className="pic" /></Link>
+      <div className="contactpage">
+         <p className="title"><img src={linkedin} alt="Italian Trulli" width="900px" height="600px"></img>Contact Page</p> <Link as="a" activeClassName="active" to="/Contact"><img src={con} className="pic" /></Link>
             
          
             <p className="title">Linkedin</p>
