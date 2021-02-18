@@ -33,4 +33,9 @@ img {
 
 .contactpage {
     background-color: rgb(35, 219, 90);
+    background: url(../images/green.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
