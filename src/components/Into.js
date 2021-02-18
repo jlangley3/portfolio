@@ -9,7 +9,7 @@ class Into extends Component {
     render() {
         return ( 
                 <div className="videos">
-                        <h1>Things I am Into!</h1>
+                        <h1>Tech These Out</h1>
 
                         <h1>1.</h1><h2>Apple Silicon Mac's</h2>
                    <iframe width="655" height="500" 

@@ -36,7 +36,7 @@
     width: 30%;
     height: 30%;
     position:center;
-    display: inline-block;
+    display: static;
     border-radius: 2rem;
 
 }
