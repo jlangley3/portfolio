@@ -14,9 +14,9 @@ class About extends Component{
    <div> 
       <div className="banner"> 
       {/* <Header /> */}
-      <img src={logo} alt="Logo" />
+     <span><img src={logo} alt="Logo" /></span> 
       </div>
-      <div className="about">
+      <div className="about"><span>
           
             
             {/* <h1> A Little Bit About Me</h1> */}
@@ -35,7 +35,7 @@ class About extends Component{
                 their optimum efficiency. I graduated from Flatiron School and I’m 
                 excited to combine my years of experience in healthcare and working 
                 with clients with my new expertise in Ruby on Rails and JavaScript 
-                to a new opportunity as a developer.</p>
+                to a new opportunity as a developer.</p></span>
       </div>
 
       
