@@ -6,24 +6,6 @@ import '../styles/Resume.css';
 class Resume extends Component {
   render() {
 
-    if(this.props.data){
-      var skillmessage = this.props.data.skillmessage;
-      var education = this.props.data.education.map(function(education){
-        return <div key={education.school}><h3>Marymount University</h3>
-        <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
-        <p>{education.description}</p></div>
-      })
-      var work = this.props.data.work.map(function(work){
-        return <div key={work.company}><h3>{work.company}</h3>
-            <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
-            <p>{work.description}</p>
-        </div>
-      })
-      var skills = this.props.data.skills.map(function(skills){
-        var className = 'bar-expand '+skills.name.toLowerCase();
-        return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
-      })
-    }
 
     return (
       <section id="resume">
@@ -37,7 +19,6 @@ class Resume extends Component {
          <div className="nine columns main-col">
             <div className="row item">
                <div className="twelve columns">
-                 {education}
                  <h3><span>Full-stack web developer, experienced in Ruby on Rails, React, and 
                    JavaScript-based programming with a background in healthcare, customer service, and education. My experience writing scripts for templates introduced me to coding and has altogether motivated me to learn to write code that not only works but is maintainable and readable. Building and leading health programs has altogether provided me with strong skills in virtual communication, teaching, problem solving, and flexibility that will help innovative 
                    companies to achieve efficient results in this frequently changing environment.</span></h3>
@@ -55,7 +36,6 @@ class Resume extends Component {
          <div className="nine columns main-col">
             <div className="row item">
                <div className="twelve columns">
-                 {education}
                  <h1><span>Flatiron School</span></h1>
                  <h3><span>Flatiron School 	Washington, D.C.
                            Software Engineering	04/ 2020 - 08/2020
@@ -127,7 +107,6 @@ class Resume extends Component {
 
 				<div className="bars">
 				   <ul className="skills">
-					  {skills}
 					</ul>
 				</div>
 			</div>
