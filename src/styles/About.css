@@ -16,12 +16,14 @@ p {
 
 
 .banner {
-    background-color: rgb(3, 3, 3);
+    /* background-color: rgb(110, 109, 109); */
     width: 100%;
     height: 14rem;
     border-radius: 1rem;
     position: center;
 }
+
+
 
 /* The Modal (background) */
 .modal {
