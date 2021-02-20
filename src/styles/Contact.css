@@ -22,13 +22,14 @@
 
 }
 
-img {
+.contactpage img {
     width: 22rem;
     height: 10rem;
     position:center;
     display: block;
+    margin-top: 5rem;
     border-radius: 3rem;
-    margin-left: 35vw;
+    margin-left: 40%;
     margin-bottom: 2rem;
     /* padding-bottom: 2rem; */
 

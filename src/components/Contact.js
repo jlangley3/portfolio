@@ -15,7 +15,7 @@ class Contact extends Component{
       <div className="contactpage">
          
          {/* <Link as="a" activeClassName="active" to="/Contact"><img src={con} className="pic" /></Link> */}
-         <Link as="a" activeClassName="active" to="/Contact"><p className="title2">Click to Find Me!</p></Link>
+         {/* <Link as="a" activeClassName="active" to="/Contact"><p className="title2">Click to Find Me!</p></Link> */}
          
             {/* <p className="title">Linkedin</p> */}
             <a href={"https://www.linkedin.com/in/jesselangley"}>  

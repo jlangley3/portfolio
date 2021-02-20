@@ -19,6 +19,8 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
    color: #686868;
+   -webkit-text-stroke-width: .5px;
+   -webkit-text-stroke-color: black;
 	font-family: 'opensans-bold', sans-serif;
    font-weight: normal;
 }
