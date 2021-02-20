@@ -15,9 +15,9 @@ p {
 }
 
 
-.banner img{
-    background-color: rgb(250, 250, 250);
-    width: 50%;
+.banner {
+    background-color: rgb(3, 3, 3);
+    width: 100%;
     height: 14rem;
     border-radius: 1rem;
     position: center;
