@@ -86,27 +86,28 @@ class Resume extends Component {
 
          <div className="nine columns main-col">
          <h1><span>Montgomery College </span></h1>
-                 <h3><span>	Silver Spring, Maryland</span></h3>
-                 <h3><span>Clinical Coordinator/Adjunct Professor </span></h3>	      
-                 <h3><span> 01/2020 - Present</span></h3>
-<h3><span>●	Organize and manage clinical agency requirements for 
-  multiple programs to ensure students are career ready</span></h3>
-<h3><span>●	Act as a negotiator to match the needs of students to 
-  agencies with appropriate clinical learning experiences</span></h3>
-<h3><span>●	Provide instructional assessments and weekly lesson 
-  plans to prepare students for National Board Examinations
-●	Built class websites utilizing blackboard as a classroom tool 
-resulting in 60% increase in </span></h3>
-<h3><span>●	Teach engaging, rigorous, and relevant lessons 
-  for 2-3 classes of 15-25 students weekly</span></h3>
+                 <h3><span>	Silver Spring, Maryland  </span></h3>
+                 <h3><span>Clinical Coordinator/Adjunct Professor || 01/2020 - Present</span></h3>	      
+                 <h3><span>●	Organize and manage clinical agency requirements for 
+                   multiple programs to ensure students are career ready</span></h3>
+                 <h3><span>●	Act as a negotiator to match the needs of students to 
+                   agencies with appropriate clinical learning experiences</span></h3>
+                 <h3><span>●	Provide instructional assessments and weekly lesson 
+                   plans to prepare students for National Board Examinations</span></h3>
+                   <h3><span>●	Built class websites utilizing blackboard as a classroom tool 
+                 resulting in 60% increase in </span></h3>
+                 <h3><span>●	Teach engaging, rigorous, and relevant lessons 
+                   for 2-3 classes of 15-25 students weekly</span></h3>
  
 
-                <h1><span>Marymount University</span></h1>
-                 <h3><span>Marymount University 	Arlington, VA
-                          Bachelor of Science in Health Sciences  05/2013
-                          Academic Highlights: Cum Laude, Dean’s List Scholar                                             	
-                          Study Abroad Experience: Greece, Turkey, Spain 
-                </span></h3>
+                   <h1><span>Medstar Georgetown University Hospital  </span></h1>
+                 <h3><span>	Washington, D.C.</span></h3>
+                 <h3><span>Polysomnography Technologist and Administrative Leader || 08/2011 – 02/2020</span></h3>	      
+                 <h3><span>●	Acted as first point of contact for 50+ patients daily through in-person meetings and email correspondence</span></h3>
+                 <h3><span>●	Acted as liaison between National rehabilitation hospital and Georgetown University hospital</span></h3>
+                 <h3><span>●	Managed scheduling, payments, inventory and note tracking daily</span></h3>
+                 <h3><span>●	Analyzed patient brainwave graphs and data to diagnose sleep disorders and devises health plans </span></h3>
+                 <h3><span>●	Coordinated program logistics to ensure quality patient care and confidentiality</span></h3>
         </div>
     </div>
 
@@ -120,7 +121,8 @@ resulting in 60% increase in </span></h3>
 
          <div className="nine columns main-col">
 
-            <p>{skillmessage}
+            <p><h2><span>Ruby, Rails, SQL, Sinatra, OO Programming, JavaScript, React, 
+              Redux, CSS, HTML, Angular, Product Management</span></h2>
             </p>
 
 				<div className="bars">
